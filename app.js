@@ -9,9 +9,9 @@ var foo = seneca()
     });
 
 
-var bar = seneca()  
-    .client(10102)
-    .act({"role": "bar", "cmd": "ping"}, (err, response) => {
-        if (err) console.error(err);
-        else console.log(response);
-    });
+// var bar = seneca()  
+//     .client(10102)
+//     .act({"role": "bar", "cmd": "ping"}, (err, response) => {
+//         if (err) console.error(err);
+//         else console.log(response);
+//     });
